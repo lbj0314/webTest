@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>4*2 Table</h1>
+	<table border="2">
+	<tr>
+		<td>No.</td>
+		<td>Name</td>
+		<td>age</td>
+		<td>hobby</td>
+	</tr>
+	<tr>
+	<td>1</td>
+		<td>momo</td>
+		<td>26</td>
+		<td>shoping</td>
+	</tr>
+	
+	</table>
+</body>
+</html>

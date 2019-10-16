@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Media1 Page</h1>
+	
+	<img alt="twice img1" src="../imgs/twice.jpg">
+	<img alt="twice img2" src="/Html_2/imgs/twice2.jpg">
+	
+	
+</body>
+</html>

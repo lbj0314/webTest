@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.d1 {
+	color: red;
+	text-decoration: none;
+	border: 1px solid black;
+	height: 500px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.a1{
+	color: red;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid black;
+	width: 1000px;
+}
+/* .a{
+	color: blue;
+	text-decoration: underline;
+} */
+</style>
+</head>
+<body>
+
+	<div class="d1">
+	Hello World!
+	<a href="#">Go school</a>
+	<!-- <p>Go Canada</p> -->
+	</div>
+	<div class="d1">
+		<img alt="" src="./imgs/momo2.jpg">
+	</div>
+<a href="#" class="a1">Go home</a>
+</body>
+</html>

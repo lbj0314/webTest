@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TWICE</title>
+</head>
+<body>
+<p align="center">
+	<a href="https://twice.jype.com/images/profile/large/6.jpg"><img alt="mina" src="/Html_2/imgs/mina.jpg" width="40%"></a>
+	<a href="https://twice.jype.com/images/profile/large/4.jpg"><img alt="sana" src="/Html_2/imgs/sana.jpg" width="35%"></a>
+	<a href="https://twice.jype.com/images/profile/large/3.jpg"><img alt="momo" src="/Html_2/imgs/momo.jpg" width="35%"></a>
+	<a href="https://twice.jype.com/images/profile/large/9.jpg"><img alt="tzuyu" src="/Html_2/imgs/tzuyu2.jpg" width="40%"></a>
+</p>
+</body>
+</html>

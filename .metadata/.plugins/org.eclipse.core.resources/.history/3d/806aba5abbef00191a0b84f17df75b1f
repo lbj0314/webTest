@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.d1
+	{
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+	}
+	.d2
+	{
+		width: 100px;
+		height: 100px;
+		border: 1px solid blue;
+	}
+</style>
+</head>
+<body>
+	<div class="d1"></div>
+	<div class="d2"></div>
+
+</body>
+</html>

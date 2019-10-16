@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Index Page</h1>
+	<a href="Html_1\WebContent\link\link_1.html">Link1</a>
+	<a href="Html_1\WebContent\link\subLink\link_2.html">Link2</a>
+	<a href="Html_1\WebContent\text\text1_h.html">text1_h</a>
+</body>
+</html>

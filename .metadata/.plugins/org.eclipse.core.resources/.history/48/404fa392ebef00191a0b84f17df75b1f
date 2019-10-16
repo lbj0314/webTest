@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>질문게시판 리스트</h1>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+질문<br>
+	<table>
+		<form action="./qnaListOne.html" method="get">
+		<input type="submit" value="질문&답 하나 보기" name="qnaListOne">
+		</form><br><br>
+		<form action="./qnaWrite.html" method="get">
+		<input type="submit" value="질문 글 쓰기" name="qnaListOne">
+		</form><br><br>
+		<form action="../index.html" method="get">
+		<input type="submit" value="뒤로 가기" name="qnaListback">
+		</form>
+	</table>
+</body>
+</html>

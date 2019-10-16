@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.d1 {
+	color: blue;
+	text-decoration: line-through;
+
+
+}
+</style>
+</head>
+<body>
+
+	<div class="di">
+	Hello World!
+	</div>
+
+</body>
+</html>

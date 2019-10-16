@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>게시판 입력 폼</h1>
+	<form>
+	<table>
+	<tr>
+	<td>작성자 :</td>
+	<td> <input type="text"></td>
+	</tr>
+	제목 : <input type="text">
+	내용 : <textarea rows="40" cols="50"></textarea>
+	<input type="submit" value="Write">
+	</table>
+	</form>
+	
+</body>
+</html>

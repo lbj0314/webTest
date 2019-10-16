@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#b1{
+	height: 500px;
+	border: 1px solid red;
+	text-align: center;
+	line-height: 500px;
+
+	}
+</style>
+</head>
+<body>
+	<h1 id="b1">Box Model</h1>
+</body>
+</html>

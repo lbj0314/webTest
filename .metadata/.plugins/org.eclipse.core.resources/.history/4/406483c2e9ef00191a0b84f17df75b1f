@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#h1 {
+	text-align: center;
+}
+
+.t1 {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 50%;
+}
+
+td {
+	width: 10%;
+	height: 2em;
+	text-align: center;
+	font-size: small;
+}
+
+.td1 {
+	color: white;
+	text-align: center;
+}
+
+#sub {
+	width: 60%;
+}
+
+.td2 {
+	text-align: left;
+	margin-left: 10px;
+}
+
+#t2 {
+	width: 50%;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.td3{
+	width: 30%;
+	margin: 0 auto;
+
+}
+</style>
+</head>
+<body>
+	<h1 id="h1">공지사항 리스트</h1>
+	<table class="t1">
+		<tr style="background-color: black;">
+			<td class="td1">NO</td>
+			<td class="td1">SUBJECT</td>
+			<td class="td1">NAME</td>
+			<td class="td1">DATE</td>
+			<td class="td1">HIT</td>
+		</tr>
+		<tr style="font-weight: bold;">
+			<td>공지</td>
+			<td class="td2" id="sub">FNC 공식 홈페이지 < 아티스트 공식 팬클럽 신규 가입 방법 안내>
+				ver.2014</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>296974</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td class="td2">[안내] 엔플라잉(N.Flying) 6TH MINI ALBUM [야호(夜好)] 공개</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>79</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td class="td2">[안내] Tony’s 1st Fan Meeting ‘Under the Blue Sky’
+				쌀 화환 설치 신청 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>1488</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td class="td2">[콘서트] N.Flying FLY HIGH PROJECT NOTE 5.야호(夜好)</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>3203</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td class="td2">[안내] 배우 정유진 tvN ‘유령을 잡아라’ 출연 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>405</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td class="td2">[콘서트] 2019 SF9 LIVE FANTASY #2 UNIXERSE IN MACAU
+				공연 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>1783</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td class="td2">[안내] 배우 이동건 TV조선 ‘레버리지 : 사기조작단’ 출연 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>298</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td class="td2">[콘서트] 2019 SF9 LIVE FANTASY #2 UNIXERSE IN
+				BANGKOK 공연 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>1929</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td class="td2">[예약판매] N.Flying 6TH MINI ALBUM [야호(夜好)] BE AWAKE
+				Ver / AWAKENED B</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>3204</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td class="td2">[안내] 배우 이동건, 뮤지컬 <보디가드> 출연 및 티켓 오픈 안내</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>350</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td class="td2">[콘서트] N.Flying FLY HIGH PROJECT NOTE5.</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>4112</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td class="td2">[팬미팅] Tony’s 1st Fan Meeting ‘Under the Blue
+				Sky’ 공연 안내 (재 공지)</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>6185</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td class="td2">[콘서트] 2019 SF9 LIVE FANTASY #2 UNIXERSE IN
+				TAIPEI</td>
+			<td>관리자</td>
+			<td>19. 10. 16</td>
+			<td>1768</td>
+		</tr>
+	</table>
+	<table>
+	<tr>
+		<td class="td3"><form action="./noticeListOne.html" method="get">
+			<input type="submit" value="글 하나 보기" name="noticeListOne">
+		</form>
+		</td>
+		<td class="td3">
+		<form action="./noticeWrite.html" method="get">
+			<input type="submit" value="글 쓰기" name="noticeWirte">
+		</form>
+		</td>
+		<td class="td3">
+		<form action="../index.html" method="get">
+			<input type="submit" value="뒤로 가기" name="noticeListback">
+		</form>
+		</td>
+		</tr>
+	</table>
+</body>
+</html>

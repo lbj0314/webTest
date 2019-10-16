@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<header>header</header>
+	<nav>nav</nav>
+	<section>section</section>
+	<article>article</article>
+	<footer>footer</footer>
+	<div>div</div>
+	<span>span</span>
+	<span>span2</span>
+</body>
+</html>

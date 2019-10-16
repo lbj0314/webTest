@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* css 주석 */
+header{
+	color: olive;
+	border: 3px solid red;
+	
+}

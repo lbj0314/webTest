@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="../index.html" method="post" enctype="multipart/form-data">
+<textarea rows="50" cols="50">
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+약관 내용
+</textarea><br>
+약관에 동의하시겠습니까?
+<input type="checkbox" checked="checked">
+<input type="submit" value="회원가입">
+</form>
+</body>
+</html>

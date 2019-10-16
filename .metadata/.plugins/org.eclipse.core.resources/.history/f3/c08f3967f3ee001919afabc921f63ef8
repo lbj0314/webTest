@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tzuyu</title>
+</head>
+<body>
+<h1 align="center">Tzuyu</h1>
+<p align="center">
+<img src="/Html_2/imgs/tzuyu2.jpg">
+<h3 align="center">
+생일 : 1999. 06. 14 <br>
+혈액형 : A형<br>
+취미 : 공연보기, 맛있는 것 먹기<br>
+특기 : 춤, 공 멀리 던지기<br>
+좌우명 : 노력은 배신하지 않는다!<br>
+	      좌절하지 않고 최선을 다하면<br>
+	      좋은 결과를 얻을 수 있다.<br><br>
+<a href="https://twice.jype.com/images/profile/large/9.jpg">출처 : JYP Official</a></h3><br>
+</p>
+	<a href="/Html_2/media/twice.html">return twice main</a>
+	
+</body>
+</html>

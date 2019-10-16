@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<input type="button" value="click">
+	<input type="submit" value="제에에에에추우우울">
+	<input type="reset" value="리세에엣">
+	<button>버어어어어트트트트트튼</button>
+	
+	<form action="../index.html">
+		<input type="text" name="id">
+	</form>
+</body>
+</html>

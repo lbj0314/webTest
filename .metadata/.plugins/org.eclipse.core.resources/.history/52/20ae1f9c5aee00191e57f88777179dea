@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Link Tag</h1>
+	<a href="..\text\text1_h.html">Hey! Click!</a>
+	<a href="..\linkTarget\link_ex1.html">Ex1</a>
+	<a href="..\linkTarget\sub\link_ex2.html">Ex2</a>
+</body>
+</html>

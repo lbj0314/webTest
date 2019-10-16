@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#h1{
+text-align: center;
+}
+.t1{
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 50%;
+}
+td{
+	width: 10%;
+	height : 2em;
+	text-align: center;
+	font-size: small;
+}
+.td1{
+	color: white;
+	text-align: center;
+}
+#sub{
+	width: 60%;
+}
+.td2{
+	text-align: left;
+	margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<h1 id="h1">공지사항 리스트</h1>
+<table class="t1">
+	<tr style="background-color: black;">
+		<td class="td1">NO</td>
+		<td class="td1">SUBJECT</td>
+		<td class="td1">NAME</td>
+		<td class="td1">DATE</td>
+		<td class="td1">HIT</td>
+	</tr>
+	<tr>
+		<td>13</td>
+		<td id="sub">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>12</td>
+		<td class="td2">FNC 공식 홈페이지 < 아티스트 공식 팬클럽 신규 가입 방법 안내> ver.2014</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td class="td2">[안내] 엔플라잉(N.Flying) 6TH MINI ALBUM [야호(夜好)] 공개</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td class="td2">[안내] Tony’s 1st Fan Meeting ‘Under the Blue Sky’ 쌀 화환 설치 신청 안내</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td class="td2">	[콘서트] N.Flying FLY HIGH PROJECT NOTE 5.야호(夜好)</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td class="td2">공지 제목</td>
+		<td>관리자</td>
+		<td>19. 10. 16</td>
+		<td></td>
+	</tr>
+
+</table>
+	<table>
+		<form action="./noticeListOne.html" method="get">
+		<input type="submit" value="글 하나 보기" name="noticeListOne">
+		</form><br><br>
+		<form action="./noticeWrite.html" method="get">
+		<input type="submit" value="글 쓰기" name="noticeListOne">
+		</form><br><br>
+		<form action="../index.html" method="get">
+		<input type="submit" value="뒤로 가기" name="noticeListback">
+		</form>
+	</table>
+</body>
+</html>

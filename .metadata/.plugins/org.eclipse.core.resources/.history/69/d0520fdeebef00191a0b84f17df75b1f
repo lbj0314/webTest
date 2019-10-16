@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>공지사항 글 수정</title>
+</head>
+<body>
+<h1>공지글 수정</h1>
+	<form action="noticeList.html" method="get">
+	<table>
+	<tr>
+	<td>작성자 :</td>
+	<td> <input type="text" value="로그인한 사람 이름" name="name" disabled="disabled"></td>
+	</tr>
+	<tr>
+	<td>제목 : </td>
+	<td><input type="text"  value="공지한 글 제목" name="title">
+
+	</td>
+	</tr>
+	<tr>
+	<td>내용 : </td>
+	<td> <textarea rows="40" cols="50" name="content">
+공지 내용
+공지 내용
+공지 내용
+공지 내용
+공지 내용
+공지 내용
+공지 내용
+공지 내용
+	</textarea>
+	
+	</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+		<input type="submit" value="글 수정하기" name="noticeUpdate">
+		</td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>

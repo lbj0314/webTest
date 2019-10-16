@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sana</title>
+</head>
+<body style="margin: 0 auto; width: 700px;">
+<h1 align="center">Sana</h1>
+<p align="center">
+<img src="/Html_2/imgs/sana3.jpg">
+<div>
+<h3>
+생일 : 1996. 12. 29 <br>
+혈액형 : B형<br>
+취미 : 바디 미스트&향수 모으기<br>
+	   쇼핑, 먹기<br>
+특기 : 서예<br>
+좌우명 : 언제나 앞만 보고!!</h3></div><br><br>
+<h3 align="center">
+<a href="https://twice.jype.com/images/profile/large/4.jpg">출처 : JYP Official</a></h3><br>
+</p>
+	<h1 align="center"><a href="/Html_2/media/twice.html">return twice main</a></h1>
+</body>
+</html>

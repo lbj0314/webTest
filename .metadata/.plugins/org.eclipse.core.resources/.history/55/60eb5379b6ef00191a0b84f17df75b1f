@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	/* 선택자 */
+	* {color: red;}
+	#t1
+	{color: blue;}
+	
+	
+</style>
+</head>
+<body>
+	<h1>h1 tag</h1>
+	<p>p tag</p>
+	<div>div tag</div>
+	<h1 id="t1">Another H1 tag</h1>
+
+
+</body>
+</html>

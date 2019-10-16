@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>순서가 있는 List(ordered list)</h1>
+	<ol type="i" start="3" reversed="reversed">
+	<li>뉴욕</li>
+	<li>마다가스카르</li>
+	<li>남극</li>
+	<li>마추픽추</li>
+	<li>우유니 사막</li>
+	</ol>
+	
+	
+	<h1>순서가 없는 List(ordered list)</h1>
+	<ul>
+	<li>SKT</li>
+	<li>LGU</li>
+	<li>KT</li>
+	</ul>
+	
+	
+	
+</body>
+</html>

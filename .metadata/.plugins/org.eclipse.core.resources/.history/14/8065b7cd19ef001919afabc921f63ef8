@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+	<p>
+	KT<input type="radio">
+	SKT<input type="radio">
+	LGU<input type="radio">
+	</p>
+	</div>
+</body>
+</html>
