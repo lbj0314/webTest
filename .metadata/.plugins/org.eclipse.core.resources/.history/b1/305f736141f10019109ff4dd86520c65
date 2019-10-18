@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="./css/reset.css" rel="stylesheet">
+<link href="./css/layout.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header_wrap">
+			<div class="header_logo">
+				<img alt="#" src="./imgs/common/jyplogo.png">
+			</div>
+			<ul class="header_nav">
+				<li><a href="notice/noticeList.html">NOTICE</a></li>
+				<li><a href="#">COMPANY</a></li>
+				<li><a href="qna/qnaList.html">Q&A</a></li>
+				<li><a href="#">AUDITION</a></li>
+			</ul>
+			
+
+			<ul class="header_subnav">
+
+				<li><a href="member/join.html">JOIN</a></li>
+				<li><a href="member/login.html">LOGIN</a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="main"></section>
+	<footer class="footer">
+		<div class="footerbox">
+			<div class="footerbox-1">
+				<img alt="#" src="./imgs/common/footer.jpg">
+			</div>
+			<div id="site">
+				<a href="#">FAMILIY SITE</a>
+			</div>
+			<div id="inside">
+				<a href="http://jypestorage.blob.core.windows.net/cmdjypcenter/%ED%91%9C%EC%A4%80%EB%82%B4%EB%B6%80%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B7%9C%EC%A0%95(%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%EC%A0%9C%EC%9D%B4%EC%99%80%EC%9D%B4%ED%94%BC%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8).pdf">내부정보관리규정</a>
+			</div>
+			<div id="personal">
+				<a href="https://www.jype.com/personal.aspx?LDiv=KO">개인정보처리방침</a>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>

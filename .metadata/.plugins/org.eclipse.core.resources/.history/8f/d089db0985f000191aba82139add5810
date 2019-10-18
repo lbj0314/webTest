@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+li{
+display: inline;
+border: 1px solid red;
+margin-right: 100px;
+}
+</style>
+
+</head>
+<body>
+	<ul>
+		<li>COMPANY</li>
+		<li>ARTIST</li>
+		<li>AUDITION</li>
+		<li>UTIL</li>
+	</ul>
+</body>
+</html>
