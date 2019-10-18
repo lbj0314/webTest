@@ -14,3 +14,5 @@
 1571128217667	Rename resource 'noticeWrite.html'
 1571128229119	Rename resource 'noticeUpdate.html'
 1571128235096	Rename resource 'noticeList.html'
+1571363924490	Move 2 resources to 'css'
+1571364377478	Move 7 resources to 'WebContent'
