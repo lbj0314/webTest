@@ -61,7 +61,12 @@ header {
 	font-weight: bold;
 	color: #60ae2b;
 }
-
+.header_nav_left li a:hover{
+	text-align: center;
+	
+	font-weight: bold;
+	color: red;
+}
 .header_nav_right {
 	float: right;
 	display: block;
@@ -81,6 +86,12 @@ header {
 	color: #60ae2b;
 	padding-left: 20px;
 }
+.header_nav_right li a:hover{
+	text-align: center;
+	
+	font-weight: bold;
+	color: red;
+}
 .login a{
 	float: right;
 	width: 150px;
@@ -90,6 +101,12 @@ header {
 	font-size: 14px;
 	font-weight: bold;
 	color: #60ae2b;
+}
+.login a:hover{
+	text-align: center;
+	
+	font-weight: bold;
+	color: red;
 }
 /*********************************** main **********************************/
 section {
@@ -269,7 +286,7 @@ section {
 	height: 320px;
 	margin: 0 auto;
 }
-
+/******************** noticeUpdate ********************/
 #menu_main {
 	max-width: 100%;
 	height: 2916px;
@@ -305,6 +322,7 @@ section {
     height: 93px;
     margin: 0 auto;
 }
+/******************** notice ********************/
 #notice_main {
 	max-width: 100%;
 	height: 1160px;
@@ -334,6 +352,7 @@ section {
 	font-weight: bold;
 	color: red;
 }
+
 .tno{
 	border-left:0;
 	width: 15%;
@@ -365,9 +384,10 @@ section {
 	text-align: center;
 	font-size: 18px;
 }
+/******************** noticeUpdate ********************/
 #notice_main2 {
 	max-width: 100%;
-	height: 1460px;
+	height: 1160px;
 	background-color: #ccc;
 	background-image: url("../imgs/common/body_bg.jpg");
 	background-repeat: repeat;
@@ -429,7 +449,7 @@ section {
 	width:800px;
 	margin:20px auto;
 }
-
+/******************** terms ********************/
 .terms{
 	float: right;
 }
@@ -440,6 +460,7 @@ section {
 .terms input{
 	float: right;
 }
+/******************** join ********************/
 #login_main2 {
 	max-width: 100%;
 	height: 1160px;
@@ -492,7 +513,13 @@ section {
 .foottext li a {
 	color: #848484;
 }
-
+.foottext li a:hover{
+	text-align: center;
+	
+	font-weight: bold;
+	color: red;
+}
+/******************** copyright ********************/
 .footercopy {
 	float: left;
 	width: 780px;
@@ -519,4 +546,10 @@ section {
 	font-size: 11px;
 	color: #848484;
 	margin-bottom: 15px;
+}
+.copy2 a:hover{
+	text-align: center;
+	
+	font-weight: bold;
+	color: red;
 }
