@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!-------------------------------- Header -------------------------------->
-		<header>
+	<header>
 		<div class="headerWrap">
 			<div class="header-box">
 				<ul class="header_nav_left">
@@ -28,21 +28,41 @@
 		</div>
 	</header>
 	<!--------------------------------- Main --------------------------------->
-	<section id="menu_main">
+	<section id="notice_main2">
 		<div class="main_sub">
 			<img id="visual" alt="#" src="/Html_ex3/imgs/common/main_visual.jpg">
 		</div>
-		<div class="menuinfo">
-			<p class="menutit"><img alt="#" src="../imgs/common/tit_menu.png"></p><br>
-			<img alt="#" src="../imgs/common/menu1.jpg"><br>
-			<img alt="#" src="../imgs/common/menu2.jpg">
-		</div>
-		<div class="btn">
-			<ul>
-				<li><a href="http://www.shakeshack.kr/pdf/gangnam_191001.pdf"><img id="menuimg" alt="전체 메뉴" src="../imgs/common/view_btn.png"></a>
-				<p>전체 메뉴 보기</p>
-				</li>
-			</ul>
+		<div class="noticeinfo2">
+			<h1 align="center" style="color: #60ae2b">글 수정하기</h1>
+	<form action="./noticeList.html" method="get">
+		<table >
+			<tr>
+				<td class="tw1" style="color: #60ae2b">작성자 :</td>
+				<td class="tw2"><input type="text" value="로그인한 ID 이름" name="name"
+					disabled="disabled" size="60" style="color: #60ae2b"></td>
+			</tr>
+			<tr>
+				<td style="color: #60ae2b">제목 :</td>
+				<td><input type="text" name="content" value="ShakeShark의 Q&A 제목" size="60" style="color: #60ae2b"></td>
+			</tr>
+			<tr>
+				<td style="color: #60ae2b">내용 :</td>
+				<td><textarea rows="30" cols="55" style="color: #60ae2b">
+ShakeShark의 Q&A 내용
+ShakeShark의 Q&A 내용
+</textarea></td>
+
+			</tr>
+		</table>
+	</form>
+			<div class="noticewrite">
+				<div class="nw1">
+					<a href="./qnaListOne.html">뒤로 가기</a>
+				</div>
+				<div class="nw1">
+					<a href="./qnaList.html">수정하기</a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-------------------------------- Footer -------------------------------->

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!-------------------------------- Header -------------------------------->
-		<header>
+	<header>
 		<div class="headerWrap">
 			<div class="header-box">
 				<ul class="header_nav_left">
@@ -28,21 +28,63 @@
 		</div>
 	</header>
 	<!--------------------------------- Main --------------------------------->
-	<section id="menu_main">
+	<section id="login_main2">
 		<div class="main_sub">
 			<img id="visual" alt="#" src="/Html_ex3/imgs/common/main_visual.jpg">
 		</div>
-		<div class="menuinfo">
-			<p class="menutit"><img alt="#" src="../imgs/common/tit_menu.png"></p><br>
-			<img alt="#" src="../imgs/common/menu1.jpg"><br>
-			<img alt="#" src="../imgs/common/menu2.jpg">
-		</div>
-		<div class="btn">
-			<ul>
-				<li><a href="http://www.shakeshack.kr/pdf/gangnam_191001.pdf"><img id="menuimg" alt="전체 메뉴" src="../imgs/common/view_btn.png"></a>
-				<p>전체 메뉴 보기</p>
-				</li>
-			</ul>
+		<div class="logininfo">
+
+				<table class="login_table">
+					<tr>
+						<td>I D :</td>
+						<td><input type="text" placeholder="ID를 입력하세요." name="id"
+							size="60" style="color: #60ae2b"></td>
+					</tr>
+					<tr>
+						<td>P W :</td>
+						<td><input type="password" placeholder="PW를 입력하세요." name="pw"
+							size="60" style="color: #60ae2b"></td>
+					</tr>
+					<tr>
+						<td>PW Check :</td>
+						<td><input type="password" placeholder="PW를 다시 입력하세요."
+							name="pw2" size="60" style="color: #60ae2b"></td>
+					</tr>
+					<tr>
+						<td>NAME :</td>
+						<td><input type="text" placeholder="NAME을 입력하세요." name="name"
+							size="60" style="color: #60ae2b"></td>
+					</tr>
+				</table>
+				<table class="gender">
+					<tr >
+						<td>남자</td>
+						<td>여자</td>
+					</tr>
+					<tr>
+						<td><input type="radio" checked="checked" name="gender"
+							id="btn"></td>
+						<td><input type="radio" name="gender" id="btn"></td>
+					</tr>
+				</table>
+				<table class="login_table">
+					<tr>
+						<td>PHONE :</td>
+						<td><input type="" placeholder="PHONE NUMBER를 입력하세요."
+							name="phone" size="60" style="color: #60ae2b"></td>
+					</tr>
+					<tr>
+						<td>E-MAIL :</td>
+						<td><input type="email" placeholder="E-MAIL를 입력하세요."
+							name="name" size="60" style="color: #60ae2b"></td>
+					</tr>
+				</table>
+				<div class="loginwrite">
+
+					<div class="lw1">
+						<a href="../index.html">회원가입</a>
+					</div>
+				</div>
 		</div>
 	</section>
 	<!-------------------------------- Footer -------------------------------->

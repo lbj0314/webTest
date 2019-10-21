@@ -9,3 +9,10 @@ a{
 	/* color : #60ae2b; */
 	text-decoration: none;
 }
+td{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	width:1200px;
+	height: 40px;
+}

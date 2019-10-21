@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!-------------------------------- Header -------------------------------->
-		<header>
+	<header>
 		<div class="headerWrap">
 			<div class="header-box">
 				<ul class="header_nav_left">
@@ -28,21 +28,46 @@
 		</div>
 	</header>
 	<!--------------------------------- Main --------------------------------->
-	<section id="menu_main">
+	<section id="login_main">
 		<div class="main_sub">
 			<img id="visual" alt="#" src="/Html_ex3/imgs/common/main_visual.jpg">
 		</div>
-		<div class="menuinfo">
-			<p class="menutit"><img alt="#" src="../imgs/common/tit_menu.png"></p><br>
-			<img alt="#" src="../imgs/common/menu1.jpg"><br>
-			<img alt="#" src="../imgs/common/menu2.jpg">
-		</div>
-		<div class="btn">
-			<ul>
-				<li><a href="http://www.shakeshack.kr/pdf/gangnam_191001.pdf"><img id="menuimg" alt="전체 메뉴" src="../imgs/common/view_btn.png"></a>
-				<p>전체 메뉴 보기</p>
-				</li>
-			</ul>
+		<div class="logininfo2">
+			<form action="./join.html" method="post"
+				enctype="multipart/form-data">
+
+				<textarea rows="20" cols="110" disabled="disabled"
+					style="background-color: white; color: #60ae2b">
+We Stand For Something Good in everything we do. In 2017 we shared our U.S. Animal Welfare Policy to outline our core beliefs and we’re proud to now announce that we’ve committed to the European Chicken Commitment, an effort that will apply even higher animal welfare standards in the UK by 2026.
+
+To our guests: we want you to know that what we serve in our Shacks has been meticulously sourced and cared for, starting with its origin on our supplier’s farms and ranches. We hear you when you ask for nothing but the best for you and your families.
+
+To our suppliers: we want you to know that we deeply value and respect our partnerships and the culture of working together to raise the bar for ourselves and the restaurant industry as a whole.
+
+To our team: we want you to know that you can be proud about the food you’re taking such care to prepare in our kitchens.
+
+In our UK Shacks we’re proud to serve chicken that is free of antibiotics, free of animal byproducts in feed, and humanely raised in a cage-free environment.
+
+But, there are still improvements to be achieved in the way chickens are raised. We are committed to sourcing our chickens using standards aligned with the requirements of the Global Animal Partnership’s Standard for Broiler Chickens in the US by 2024 and the European Chicken Commitment in the UK by 2026.
+
+We Stand For:
+• Improving conditions of broiler chickens
+• The use of genetics that produce healthier chickens through slower growth
+• Giving chickens more space and reducing the maximum stocking density
+• Better living conditions including litter, lighting and enrichment
+
+“Shake Shack is proud that we’re on our way to reaching these improved welfare standards in the US by 2024, and we’re pleased to extend this commitment to include the UK by 2026,” said Jeffrey Amoscato, Shake Shack Vice President of Supply Chain & Menu Innovation. “Maintaining the highest standards for animal welfare is our guiding principle, and our team and suppliers are committed to achieving ethical and humane practices for the animals in our supply chain.”
+
+We care deeply about the issues that are important to our guests, so we want to hear from you. If we can ever do anything better, let us know. We’re always listening at share@shakeshack.com and on Twitter at Share on Twitter. Thank you for standing with us!
+</textarea>
+				<br> <br>
+				<div class="terms">
+					<input type="checkbox" checked="checked" width="12px" height="12px">
+					<p id="term1" style="color: #60ae2b">약관에 동의하시겠습니까? &nbsp&nbsp</p>
+					<br> <input type="submit" formmethod="get" value="동의"
+						style="color: #60ae2b">
+				</div>
+			</form>
 		</div>
 	</section>
 	<!-------------------------------- Footer -------------------------------->
