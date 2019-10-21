@@ -51,7 +51,7 @@ header {
 	padding-left: 50px;
 }
 
-.header_nav_left li {
+.header_nav_left li a {
 	float: left;
 	width: 150px;
 	height: 50px;
@@ -70,7 +70,7 @@ header {
 	padding-right: 50px;
 }
 
-.header_nav_right li {
+.header_nav_right li a {
 	float: right;
 	width: 150px;
 	height: 50px;
@@ -80,13 +80,13 @@ header {
 	font-weight: bold;
 	color: #60ae2b;
 }
-/** main **/
+
+/*********************************** main **********************************/
 section {
 	width: 100%;
 	height: 1620px;
 	background-color: #ccc;
 	background-image: url("../imgs/common/body_bg.jpg");
-	background-repeat: repeat;
 	background-repeat: repeat;
 }
 
@@ -113,7 +113,6 @@ section {
 	background-color: #ccc;
 	background-image: url("../imgs/common/body_bg.jpg");
 	background-repeat: repeat;
-	background-repeat: repeat;
 }
 
 .main_sub2_1 {
@@ -123,7 +122,6 @@ section {
 	margin-bottom: 30px;
 	background-color: #ccc;
 	background-image: url("../imgs/common/body_bg.jpg");
-	background-repeat: repeat;
 	background-repeat: repeat;
 }
 
@@ -261,7 +259,58 @@ section {
 	height: 320px;
 	margin: 0 auto;
 }
-/* footer */
+
+#menu_main {
+	max-width: 100%;
+	height: 2916px;
+	background-color: #ccc;
+	background-image: url("../imgs/common/body_bg.jpg");
+	background-repeat: repeat;
+}
+
+.menuinfo {
+	width: 780px;
+	margin: 50px auto;
+}
+
+.menutit {
+	margin-top: 50px; margin-bottom : 30px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.btn {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.btn a{
+	height:93px;
+	width: 93px;
+}
+#menuimg{
+	    display: block;
+    width: 93px;
+    height: 93px;
+    margin: 0 auto;
+}
+#notice_main {
+	max-width: 100%;
+	height: 1660px;
+	background-color: #ccc;
+	background-image: url("../imgs/common/body_bg.jpg");
+	background-repeat: repeat;
+}
+
+.noticeinfo {
+	width: 780px;
+	margin: 50px auto;
+}
+
+
+
+/***************************************** footer *************************/
 .footer {
 	width: 100%;
 	height: 370px;
@@ -290,13 +339,13 @@ section {
 	line-height: 30px;
 }
 
-#t1 {
+.t1 {
 	font-size: 22px;
 	color: white;
 	padding-bottom: 20px;
 }
 
-a {
+.foottext li a {
 	color: #848484;
 }
 
@@ -320,12 +369,10 @@ a {
 	font-size: 11px;
 	color: #4e4e4e;
 	margin-bottom: 15px;
-
 }
-.copy2 {
+
+.copy2 a {
 	font-size: 11px;
 	color: #848484;
 	margin-bottom: 15px;
-
 }
-
