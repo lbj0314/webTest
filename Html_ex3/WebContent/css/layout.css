@@ -449,6 +449,23 @@ section {
 	height: 42px;
 	padding-right: 10px;
 }
+.btn_global {
+    display: block;
+    width: 100%;
+    height: 61px;
+    margin: 30px 0 14px;
+    padding-top: 1px;
+    border: none;
+    border-radius: 0;
+    background-color: #03c75a;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 61px;
+    -webkit-appearance: none;
+}
 .loginwrite a{
 	color: #60ae2b;
 	font-weight: bold;
