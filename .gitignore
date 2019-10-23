@@ -1,2 +1,5 @@
 /.metadata/
 *.xmi
+*.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/Css_1/.markers.snap
+*.snap

@@ -14,6 +14,7 @@
 
 		term3.addEventListener("click", function() {
 			if (term2.checked) {
+				alert("약관에 동의하셨습니다.");
 				location.href = "./join.jsp";
 			} else {
 				alert("약관에 동의해주세요.");
