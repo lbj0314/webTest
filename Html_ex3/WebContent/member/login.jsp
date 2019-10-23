@@ -12,16 +12,15 @@
 		var id = document.getElementById("id").value;
 		var pw = document.getElementById("pw").value;
 
-		if (id == "" || pw =="") {
-			alert('id나 pw를 입력하세요.');	
+		if (id == "" || pw == "") {
+			alert('id나 pw를 입력하세요.');
 			return false;
 		} else {
 			alert('로그인이 완료되었습니다.');
 			return true;
 		}
-		
-	}
 
+	}
 </script>
 </head>
 <body>
@@ -54,30 +53,35 @@
 		</div>
 
 		<div class="logininfo">
-			<form action="../index.jsp" method="get">
-				<table class="login_table">
-					<tr>
-						<td>ID :</td>
-						<td><input type="text" placeholder="ID를 입력하세요." id="id"
-							name="id" size="80" style="color: #60ae2b"></td>
-					</tr>
-					<tr>
-						<td>PW :</td>
-						<td><input type="password" placeholder="PW를 입력하세요." id="pw"
-							name="pw" size="80" style="color: #60ae2b"></td>
-					</tr>
-				</table>
-			<div class="loginwrite">
 
-				<div class="lw1">
-					<a href="./terms.jsp">회원가입</a>
-				</div>
-				<div class="lw1">
-			
-					<input type="submit" title="로그인" value="로그인" class="btn_global" onclick="return check()">
-				</div>
+			<table class="login_table">
+				<tr>
+					<td>ID :</td>
+					<td><input type="text" placeholder="ID를 입력하세요." id="id"
+						name="id" size="80" style="color: #60ae2b"></td>
+				</tr>
+				<tr>
+					<td>PW :</td>
+					<td><input type="password" placeholder="PW를 입력하세요." id="pw"
+						name="pw" size="80" style="color: #60ae2b"></td>
+				</tr>
+			</table>
+			<div class="loginwrite">
+				<form action="./terms.jsp" method="get">
+					<div class="lw1">
+						<input type="submit" title="회원가입" value="회원가입" class="btn_global"
+							onclick="">
+					</div>
+				</form>
+				<form action="../index.jsp" method="get">
+					<div class="lw1">
+
+						<input type="submit" title="로그인" value="로그인" class="btn_global"
+							onclick="return check()">
+					</div>
+				</form>
 			</div>
-			</form>
+
 		</div>
 
 	</section>

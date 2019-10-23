@@ -7,28 +7,43 @@
 <title>ShakeShack</title>
 <link href="../css/reset.css" rel="stylesheet">
 <link href="../css/layout.css" rel="stylesheet">
+<script type="text/javascript">
+	window.onload = function() {
+		var term2 = document.getElementById("term2");
+		var term3 = document.getElementById("term3");
+
+		term3.addEventListener("click", function() {
+			if (term2.checked) {
+				location.href = "./join.jsp";
+			} else {
+				alert("약관에 동의해주세요.");
+			}
+		});
+
+	}
+</script>
 </head>
 <body>
 	<!-------------------------------- Header -------------------------------->
 	<header>
-	<div class="header">
-		<div class="headerWrap">
-			<div class="header-box">
-				<ul class="header_nav_left">
-					<li><a href="/Html_ex3/notice/noticeList.jsp">NOTICE</a></li>
-					<li><a href="/Html_ex3/menu/menu.jsp">MENU</a></li>
-				</ul>
-				<div class="headerlogo">
-					<a href="/Html_ex3/index.jsp"><img id="logo" alt="#"
-						src="/Html_ex3/imgs/common/ss_logo.png"></a>
+		<div class="header">
+			<div class="headerWrap">
+				<div class="header-box">
+					<ul class="header_nav_left">
+						<li><a href="/Html_ex3/notice/noticeList.jsp">NOTICE</a></li>
+						<li><a href="/Html_ex3/menu/menu.jsp">MENU</a></li>
+					</ul>
+					<div class="headerlogo">
+						<a href="/Html_ex3/index.jsp"><img id="logo" alt="#"
+							src="/Html_ex3/imgs/common/ss_logo.png"></a>
+					</div>
+					<ul class="header_nav_right">
+						<li><a href="/Html_ex3/member/login.jsp">LOGIN</a></li>
+						<li><a href="https://www.shakeshack.com/">INTERNATINAL</a></li>
+						<li><a href="/Html_ex3/qna/qnaList.jsp">Q&A</a></li>
+					</ul>
 				</div>
-				<ul class="header_nav_right">
-					<li><a href="/Html_ex3/member/login.jsp">LOGIN</a></li>
-					<li><a href="https://www.shakeshack.com/">INTERNATINAL</a></li>
-					<li><a href="/Html_ex3/qna/qnaList.jsp">Q&A</a></li>
-				</ul>
 			</div>
-		</div>
 		</div>
 	</header>
 	<!--------------------------------- Main --------------------------------->
@@ -37,8 +52,7 @@
 			<img id="visual" alt="#" src="/Html_ex3/imgs/common/main_visual7.jpg">
 		</div>
 		<div class="logininfo2">
-			<form action="./join.jsp" method="post"
-				enctype="multipart/form-data">
+			
 
 				<textarea rows="20" cols="110" disabled="disabled"
 					style="background-color: white; color: #60ae2b">
@@ -66,12 +80,13 @@ We care deeply about the issues that are important to our guests, so we want to 
 </textarea>
 				<br> <br>
 				<div class="terms">
-					<input type="checkbox" checked="checked" width="12px" height="12px">
+					<input id="term2" type="checkbox" checked="checked" width="12px"
+						height="12px">
 					<p id="term1" style="color: #60ae2b">약관에 동의하시겠습니까? &nbsp&nbsp</p>
-					<br> <input type="submit" formmethod="get" value="동의"
-						style="color: #60ae2b">
+					<br> <input type="submit" value="동의"
+						style="color: #60ae2b" id="term3">
 				</div>
-			</form>
+			
 		</div>
 	</section>
 	<!-------------------------------- Footer -------------------------------->

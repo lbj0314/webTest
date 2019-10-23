@@ -22,7 +22,7 @@
 				
 			}
 		});
-
+		
 		///2. all 체크 되어있고 1,2,3 하나라도 체크가 풀리면 all 풀기
 		//3. 3개 다 클릭되면 all 선택
 		for (var i = 0; i < ch.length; i++) {
@@ -44,9 +44,9 @@
 		//4. 체크 되었는지 확인
 		btn.addEventListener("click", function(){
 			if (all.checked) {
-				alert("OK");
+				location.href = "../js_test1.jsp";
 			}else{
-				alert("NO");
+				location.reload();
 			}
 			
 		});
