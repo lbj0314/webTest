@@ -99,7 +99,7 @@
 				<tr>
 					<td>E-MAIL :</td>
 					<td><input type="email" placeholder="E-MAIL를 입력하세요."
-						name="name" size="60" style="color: #60ae2b" id="email"></td>
+						name="email" size="60" style="color: #60ae2b" id="email"></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -179,7 +179,7 @@
 		var pw2 = document.getElementById("pw2");
 		var pwResult = document.getElementById("pwResult");
 		//name
-		var name = document.getElementById("name");
+		var name1 = document.getElementById("name");
 		var nameResult = document.getElementById("nameResult");
 		//phone
 		var phone = document.getElementById("phone");
@@ -268,17 +268,17 @@
 		});
 		
 		//이름 확인
-		/* name.addEventListener("blur", function() {
+		name1.addEventListener("blur", function() {
 			nameResult.innerHTML = "이름을 입력하세요.";
 			nameResult.setAttribute("class", "red");
 			if (nameCheck(this.value)) {
 				nameResult.innerHTML = "";
 				nameResult.setAttribute("class", "blue");
 			}
-		}); */
+		});
 
 		function nameCheck() {
-			if (name.value.length >= 1) {
+			if (name1.value.length >= 1) {
 				return true;
 
 			} else {
