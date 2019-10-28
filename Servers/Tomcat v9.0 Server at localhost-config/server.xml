@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Html_ex1" path="/Html_ex1" reloadable="true" source="org.eclipse.jst.jee.server:Html_ex1"/><Context docBase="Html_ex3" path="/Html_ex3" reloadable="true" source="org.eclipse.jst.jee.server:Html_ex3"/><Context docBase="js_1" path="/js_1" reloadable="true" source="org.eclipse.jst.jee.server:js_1"/><Context docBase="Jquery_1" path="/Jquery_1" reloadable="true" source="org.eclipse.jst.jee.server:Jquery_1"/></Host>
+      <Context docBase="Html_ex1" path="/Html_ex1" reloadable="true" source="org.eclipse.jst.jee.server:Html_ex1"/><Context docBase="Html_ex3" path="/Html_ex3" reloadable="true" source="org.eclipse.jst.jee.server:Html_ex3"/><Context docBase="js_1" path="/js_1" reloadable="true" source="org.eclipse.jst.jee.server:js_1"/><Context docBase="Jquery_1" path="/Jquery_1" reloadable="true" source="org.eclipse.jst.jee.server:Jquery_1"/><Context docBase="Servlet_1" path="/Servlet_1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_1"/><Context docBase="Servlet_2_jsp" path="/Servlet_2_jsp" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_2_jsp"/></Host>
     </Engine>
   </Service>
 </Server>
