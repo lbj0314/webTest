@@ -64,7 +64,7 @@
 			</tbody>
 		</table>
 	<a href="./pointInsert.jsp" class="btn btn-primary">학생 성적 추가</a><br><br>
-	<a href="./pointDelete.jsp" class="btn btn-primary">학생 성적 삭제</a>
+	
 	</div>
 	
 	

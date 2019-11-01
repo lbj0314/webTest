@@ -58,8 +58,31 @@ public class PointDAO {
 		
 		st.close();
 
-		return result;
+		return result;	
+	}
+	
+	//update
+	public int update(Connection con, PointDTO pointDTO) throws Exception{
+		int result = 0;
 		
+		String sql = "UPDATE point SET name=?, kor=?, eng=?, math=?, total=?, avg=? "
+				+ "WHERE num = ?";
+		
+		PreparedStatement st = con.prepareStatement(sql);
+		
+		st.setString(1, pointDTO.getName());
+		st.setInt(2, pointDTO.getKor());
+		st.setInt(3, pointDTO.getEng());
+		st.setInt(4, pointDTO.getMath());
+		st.setInt(5, pointDTO.getTotal());
+		st.setDouble(6, pointDTO.getAvg());
+		st.setInt(7, pointDTO.getNum());
+		
+		result = st.executeUpdate();
+		
+		st.close();
+		
+		return result;
 	}
 	//delete
 	public int delete(Connection con, int num) throws Exception {

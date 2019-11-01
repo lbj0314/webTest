@@ -18,7 +18,7 @@
 	
 	<div class="container">
   <h2>Point Insert Page</h2>
-  <form action="./pointInsertResult.jsp" method="post">
+  <form action="./pointInsertResult.jsp" method=get>
     <div class="form-group">
       <label for="name">Name : </label>
       <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">

@@ -30,32 +30,21 @@
 		msg = "등록 성공";
 	}
 	
+	request.setAttribute("msg", msg);
+	request.setAttribute("path", "./pointList.jsp");
+	RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
+	view.forward(request, response);
+	
 %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script type="text/javascript">
-	<%-- <%
-	if (result > 0) {	
-	 %>
-	 	alert("성공");
-	 <%
-	} else {
-	 %>
-	 alert("실패");
-	 <%
-	}
-	 %> --%>
-	 
-	 alert('<%= msg %>');
-	 
-	 location.href="./pointList.jsp";
-	 </script>	 
+
 </head>
 <body>	
-
+	
 
 </body>
 </html>

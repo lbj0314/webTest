@@ -8,13 +8,35 @@ import java.util.Random;
 
 import org.junit.Test;
 
+import com.iu.notice.NoticeDAO;
+import com.iu.notice.NoticeDTO;
 import com.iu.point.PointDAO;
 import com.iu.point.PointDTO;
 import com.iu.util.DBConnector;
 
 public class PointDAOTest {
 
-	@Test
+	//@Test
+	public void updateTest() throws Exception{
+		PointDTO pointDTO = new PointDTO();
+		
+		pointDTO.setNum(4215);
+		pointDTO.setName("nana");
+		pointDTO.setKor(19);
+		pointDTO.setEng(66);
+		pointDTO.setMath(45);
+		pointDTO.setTotal(130);
+		pointDTO.setAvg(43.3);
+		
+		PointDAO pointDAO = new PointDAO();
+		Connection con = DBConnector.getConnection();
+		
+		int result = pointDAO.update(con, pointDTO);
+		
+		assertEquals(1, result);
+	}
+	
+	//@Test
 	public void insertTest() throws Exception{
 		PointDAO pointDAO = new PointDAO();
 		Connection con = DBConnector.getConnection();
@@ -84,5 +106,16 @@ public class PointDAOTest {
 
 		con.close();
 	}
+//notice
+	@Test
+		public void noticeListTest() throws Exception{
+			NoticeDAO noticeDAO = new NoticeDAO();
+			Connection con = DBConnector.getConnection();
+			ArrayList<NoticeDTO> ar = noticeDAO.noticeList(con);
 
+			assertEquals(0, ar.size());
+
+			con.close();
+		}
+	
 }
