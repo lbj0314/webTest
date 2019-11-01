@@ -15,18 +15,39 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%@ include file="../layout/nav.jsp" %>
+<%
+	if(memberDTO == null || memberDTO.getGrade() != 0){
+		String msg = "권한이 없습니다.";
+		
+		request.setAttribute("msg", msg);
+		request.setAttribute("path", "../index.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
+		view.forward(request, response);
+	}
+
+%>
+
 <div class="container">
   <h2>공지사항 쓰기</h2>
   <form action="./noticeWriteResult.jsp" method=get>
     <div class="form-group">
       <label for="title">Title </label>
       <input type="text" class="form-control" id="title" placeholder="Enter Title" name="title">
-    <input type="text" class="form-control" id="writer" placeholder="Enter Writer" name="writer">
+   
+    <input type="text" class="form-control" id="writer" name="writer" value="<%= memberDTO.getId() %>" readonly="readonly">
+   
     </div>
     	<textarea rows="30" cols="154" id="contents" placeholder="Enter Contents" name="contents"></textarea>
     
     <button type="submit" class="btn btn-default">완료</button>
+    &nbsp;<input type="reset" class="btn" value="취소" id="cancel">
     </form>
     </div>
+<script type="text/javascript">
+	$("#cancel").click(function () {
+		location.href= "./noticeList.jsp";
+	});
+</script>
 </body>
 </html>

@@ -8,14 +8,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>common result</title>
 <script type="text/javascript">
 	
-	location.href='<%= path %>';
-	if(msg == !null){
+	
+	
 	alert('<%= msg %>');
 	location.href='<%= path %>';
-	}
+	
 </script>
 </head>
 <body>

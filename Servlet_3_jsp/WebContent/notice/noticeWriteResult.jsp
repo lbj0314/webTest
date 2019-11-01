@@ -26,15 +26,15 @@
 	con.close();
 	
 	
-	if(result == 0){
+	if(result > 0){
+	response.sendRedirect("./noticeList.jsp");	
+	}else{
 	String msg = "Write Fail";		
-	
 	request.setAttribute("msg", msg);
-	}
 	request.setAttribute("path", "./noticeList.jsp");
 	RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
 	view.forward(request, response);
-	
+	}
 	
 %>
 <!DOCTYPE html>

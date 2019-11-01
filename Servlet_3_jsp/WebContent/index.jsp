@@ -22,6 +22,17 @@
 		<h1>Before Login</h1>
 	<%} %>
 	</div>
+	<div class="container">
+	<%
+		Cookie[] cookies = request.getCookies();
+		for(int i = 0; i < cookies.length; i++){		
+	%>
+		<h1> name : <%= cookies[i].getName() %></h1>
+		<h1> value : <%= cookies[i].getValue() %></h1>
+	<%
+		}
+	%>
+	</div>
 
 
 </body>

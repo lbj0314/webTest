@@ -23,14 +23,15 @@
 	
 	con.close();
 	
-	if(result == 0){
-	String msg = "Update Fail";
-	
-		request.setAttribute("msg", msg);
-	} 
-		request.setAttribute("path", "./noticeList.jsp");
-		RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
-		view.forward(request, response);
+	if(result > 0){
+	response.sendRedirect("./noticeList.jsp");	
+	}else{
+	String msg = "Update Fail";		
+	request.setAttribute("msg", msg);
+	request.setAttribute("path", "./noticeList.jsp");
+	RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
+	view.forward(request, response);
+	}
 	
 	
 %>

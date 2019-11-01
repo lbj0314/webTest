@@ -2,12 +2,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	request.setCharacterEncoding("UTF-8");
-	response.setCharacterEncoding("UTF-8");
+	Cookie [] cookies = request.getCookies();
+	String id = "";
+	/* for(int i = 0; i > cookies.length; i++){
+		if(cookies[i].getName().equals("id")){
+			id = cookies[i].getValue();
+			break;
+		}
+	} */
 	
-	MemberDTO memberDTO = new MemberDTO();
-	memberDTO.setId(request.getParameter("id"));
-	memberDTO.setPw(request.getParameter("pw"));
+	for(Cookie cookie: cookies){
+		if(cookie.getName().equals("id")){
+			id = cookie.getValue();
+			break;
+			}
+		}
+	
+	
 	
 %>
 <!DOCTYPE html>
@@ -21,17 +32,20 @@
 </head>
 <body>
 
+<%@ include file="../layout/nav.jsp" %>
 	<div class="container">
 		<h2>Login</h2>
 		<form action="./memberLoginResult.jsp">
 			<div class="form-group">
-				<label for="id">Id:</label> <input type="text" class="form-control" id="id" placeholder="Enter id" name="id">
+			
+				<label for="id">Id:</label> <input type="text" class="form-control" value="<%= id %>" id="id" placeholder="Enter id" name="id" >
+		
 			</div>
 			<div class="form-group">
-				<label for="pw">Password:</label> <input type="password" class="form-control" id="pw" placeholder="Enter password" name="pw">
+				<label for="pw">Password:</label> <input type="password" class="form-control" id="pw" placeholder="Enter password" name="pw" value="">
 			</div>
 			<div class="checkbox">
-				<label><input type="checkbox" name="remember">Remember me</label>
+				<label><input type="checkbox" name="remember" value="check">Remember me</label>
 			</div>
 			<button type="submit" class="btn btn-default">Submit</button>
 		</form>

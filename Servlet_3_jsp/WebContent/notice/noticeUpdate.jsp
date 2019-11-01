@@ -32,6 +32,20 @@ con.close();
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%@ include file="../layout/nav.jsp" %>
+<%
+	
+
+	if(memberDTO == null && memberDTO.getId().equals(noticeDTO.getWriter())){
+		String msg = "권한이 없습니다.";
+		
+		request.setAttribute("msg", msg);
+		request.setAttribute("path", "../index.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("../common/common_result.jsp");
+		view.forward(request, response);
+	}
+
+%>
 <div class="container">
   <h2>공지사항 수정</h2>
   <form action="./noticeUpdateResult.jsp" method=get>

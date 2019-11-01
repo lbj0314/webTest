@@ -23,6 +23,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%@ include file="../layout/nav.jsp" %>
 <H1 align="center">NOTICE</H1>
 <br>
 <div class="container">
@@ -49,8 +50,10 @@
 		<textarea rows="30" cols="154" readonly="readonly"><%=noticeDTO.getContents() %> </textarea>
 	</div>
 		<div>
+	<%if(memberDTO !=null && memberDTO.getId().equals(noticeDTO.getWriter()) ){ %>
 			<a href="./noticeUpdate.jsp?num=<%= noticeDTO.getNum() %>" class="btn btn-danger">Update</a>
 			<a href="./noticeDeleteResult.jsp?num=<%= noticeDTO.getNum() %>" class="btn btn-primary">Delete</a>
+		<% }%>
 			<a href="./noticeList.jsp" class="btn btn-primary">List</a>
 		</div>
 	</div>
