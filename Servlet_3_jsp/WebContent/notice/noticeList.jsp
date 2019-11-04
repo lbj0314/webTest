@@ -87,8 +87,6 @@ text-align: center;
 					}				
 				%>
 			
-			
-			
 		</table>
 		<%if(memberDTO !=null && memberDTO.getGrade() == 0){ %>
 	<button type="button" class="btn btn-info" id="btn_write">글쓰기</button>
